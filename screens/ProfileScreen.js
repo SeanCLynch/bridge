@@ -1,8 +1,11 @@
 import React from 'react';
 import {
   View,
+  Text,
   StyleSheet
 } from 'react-native';
+
+import ProfileContainer from '../containers/ProfileContainer';
 
 export default class ProfileScreen extends React.Component {
   static navigationOptions = {
@@ -12,7 +15,7 @@ export default class ProfileScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-
+        <ProfileContainer />
       </View>
     );
   }

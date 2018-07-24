@@ -9,10 +9,12 @@ export class Login extends React.Component {
       email: "",
       password: "",
     }
+    this.submit = this.submit.bind(this)
   }
 
   submit() {
-    console.log("Hello")
+    console.log(this.state.email)
+    console.log(this.state.password)
   }
 
   render() {

@@ -22,17 +22,20 @@ export class SignUp extends React.Component {
       alert('All fields are required!')
     }
 
-    axios.post('http://localhost/signup', { //NOTE: This will not be localhost in production!! Global parameter
-      name: this.state.name,
-      email: this.state.email,
-      password: this.state.password
-    })
-    .then(function (response) {
-      console.log(response)
-    })
-    .catch(function (error) {
-      console.log(error)
-    })
+    else {
+
+      axios.post('http://localhost/signup', { //NOTE: This will not be localhost in production!! Global parameter
+        name: this.state.name,
+        email: this.state.email,
+        password: this.state.password
+      })
+      .then(function (response) {
+        console.log(response)
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
+    }
   }
 
   render() {
@@ -42,31 +45,31 @@ export class SignUp extends React.Component {
           style={styles.input}
           onChangeText={(text) => this.setState({name: text})}
           onSubmitEditing={(text) => this.checkEmpty(text)}
-          placeholder="Name"
+          placeholder="  Name"
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({email: text})}
           onSubmitEditing={(text) => this.checkEmpty(text)}
-          placeholder="Email"
+          placeholder="  Email"
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({password: text})}
           onSubmitEditing={(text) => this.checkEmpty(text)}
-          placeholder="Password"
+          placeholder="  Password"
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({confirmpassword: text})}
           onSubmitEditing={(text) => this.checkEmpty(text)}
-          placeholder="Confirm Password"
+          placeholder="  Confirm Password"
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({code: text})}
           onSubmitEditing={(text) => this.checkEmpty(text)}
-          placeholder="Code"
+          placeholder="  Organization Code"
         />
         <Button
           onPress={this.submit}
@@ -84,8 +87,17 @@ const styles = StyleSheet.create({
     marginTop: 200
   },
   input: {
-    width: 250,
-    margin: 5,
+    fontSize: 15,
+    borderLeftWidth: 2,
+    borderTopWidth: 2,
+    borderRightWidth: 2,
+    borderBottomWidth: 2,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    borderBottomRightRadius: 25,
+    borderBottomLeftRadius: 25,
+    width: 325,
+    margin: 25,
   }
 });
 

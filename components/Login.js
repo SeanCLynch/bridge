@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextInput, Text, View, Button, StyleSheet } from 'react-native';
+import axios from 'axios';
 
 export class Login extends React.Component {
 
@@ -13,8 +14,23 @@ export class Login extends React.Component {
   }
 
   submit() {
-    console.log(this.state.email)
-    console.log(this.state.password)
+
+    if (!this.state.email || !this.state.password) { //NOTE: Simple Error checking, no error handling yet!
+      alert("All fields are required for login!")
+    }
+
+    else {
+      axios.post('http://localhost/login', {
+        email: this.state.email,
+        password: this.state.password
+      })
+      .then(function (response) {
+        console.log(response)
+      })
+      .catch(function (error) {
+        console.log(error) //NOTE: Fails with error code 501 for incorrect password, fails with error code 502 for incorrect email
+      })
+    }
   }
 
   render() {
@@ -23,16 +39,17 @@ export class Login extends React.Component {
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({email: text})}
-          placeholder="Email"
+          placeholder="  Email"
+          placeholderStyle={{ fontSize: 1 }}
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({password: text})}
-          placeholder="Password"
+          placeholder="  Password"
         />
         <Button
           onPress={this.submit}
-          title="Submit"
+          title="Login"
           color="#8B008B"
         />
       </View>
@@ -46,8 +63,17 @@ const styles = StyleSheet.create({
     marginTop: 200
   },
   input: {
-    width: 250,
-    margin: 5,
+    fontSize: 15,
+    borderLeftWidth: 2,
+    borderTopWidth: 2,
+    borderRightWidth: 2,
+    borderBottomWidth: 2,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    borderBottomRightRadius: 25,
+    borderBottomLeftRadius: 25,
+    width: 325,
+    margin: 25,
   }
 });
 

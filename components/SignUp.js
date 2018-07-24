@@ -34,6 +34,12 @@ export class SignUp extends React.Component {
       })
       .catch(function (error) {
         console.log(error)
+        if (error.response.status === 500) {
+          alert('This email already exists in the database')
+        }
+        else {
+          alert("Something is not right, probably on our end")
+        }
       })
     }
   }

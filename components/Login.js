@@ -29,6 +29,9 @@ export class Login extends React.Component {
       })
       .catch(function (error) {
         console.log(error) //NOTE: Fails with error code 501 for incorrect password, fails with error code 502 for incorrect email
+        if (error.response.status === 501) {
+          alert('Invalid password, try again');
+        }
       })
     }
   }

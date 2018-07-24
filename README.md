@@ -2,6 +2,8 @@
 
 > The Unoffical Venture For America (VFA) Social App
 
+`See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)`
+
 # Mission
 
 The goal of Bridge is to break silos and reduce fragmentation between VFA Fellows. We want to create a minimalistic, simple database of people, with some additional useful features. 

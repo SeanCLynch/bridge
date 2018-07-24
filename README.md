@@ -36,7 +36,7 @@ It's tough to meet, know, and get stories of everyone at TC.
 ## Product 
 
 ### Design Team
-#### Lydia Dick, Product Designer
+#### Lydia Dick, Graphic Designer
 
 
 

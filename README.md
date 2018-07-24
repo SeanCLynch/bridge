@@ -18,27 +18,26 @@ It's tough to meet, know, and get stories of everyone at TC.
 2. Beta Launched By Tue July, 30th
 
 # The Team
+ 
+#### Michael Wedd, Co-founder, Product Manager
+#### Eric Zhang, Co-founder, Systems Engineer
 
-Michael Wedd, Co-founder, Product Manager
+## Engineering
 
-Eric Zhang, Co-founder, Systems Engineer
+### Backend Team
+#### Sean Lynch, Lead Backend Engineer                 
+#### Jake Peacock, Backend Engineer
+#### Adam Stern, Backend Engineer
 
+### Frontend Team
+#### Andre Gomes, Lead Frontend Engineer
+#### Robert Hwang, Frontend Engineer
 
-Sean Lynch, Lead Backend Engineer
+## Product 
 
-Jake Peacock, Backend Engineer
-
-Adam Stern, Backend Engineer
-
-
-Andre Gomes, Lead Frontend Engineer
-
-Robert Hwang, Frontend Engineer
-
-
-Lydia Dick, Product Designer
+### Design Team
+#### Lydia Dick, Product Designer
 
 
-# Resources
-Our api project is located at https://github.com/jamespeacock/bridge_api
+
 

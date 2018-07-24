@@ -2,7 +2,7 @@
 
 > The Unoffical Venture For America (VFA) Social App
 
-`See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)`
+See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)
 
 # Mission
 

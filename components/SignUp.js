@@ -44,32 +44,42 @@ export class SignUp extends React.Component {
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({name: text})}
-          onSubmitEditing={(text) => this.checkEmpty(text)}
           placeholder="  Name"
+          textContentType= 'name'
+          autoCorrect= {false}
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({email: text})}
-          onSubmitEditing={(text) => this.checkEmpty(text)}
           placeholder="  Email"
+          autoCapitalize= 'none'
+          autoCorrect= {false}
+          textContentType= 'emailAddress'
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({password: text})}
-          onSubmitEditing={(text) => this.checkEmpty(text)}
           placeholder="  Password"
+          autoCapitalize= 'none'
+          autoCorrect= {false}
+          textContentType= 'password'
+          secureTextEntry={true}
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({confirmpassword: text})}
-          onSubmitEditing={(text) => this.checkEmpty(text)}
           placeholder="  Confirm Password"
+          autoCapitalize= 'none'
+          autoCorrect= {false}
+          textContentType= 'password'
+          secureTextEntry={true}
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({code: text})}
-          onSubmitEditing={(text) => this.checkEmpty(text)}
           placeholder="  Organization Code"
+          autoCapitalize= 'none'
+          autoCorrect= {false}
         />
         <Button
           onPress={this.submit}

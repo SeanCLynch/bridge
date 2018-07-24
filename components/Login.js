@@ -40,12 +40,16 @@ export class Login extends React.Component {
           style={styles.input}
           onChangeText={(text) => this.setState({email: text})}
           placeholder="  Email"
-          placeholderStyle={{ fontSize: 1 }}
+          autoCapitalize= 'none'
+          autoCorrect= {false}
         />
         <TextInput
           style={styles.input}
           onChangeText={(text) => this.setState({password: text})}
           placeholder="  Password"
+          autoCapitalize= 'none'
+          autoCorrect= {false}
+          secureTextEntry={true}
         />
         <Button
           onPress={this.submit}

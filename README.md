@@ -39,5 +39,6 @@ Robert Hwang, Frontend Engineer
 Lydia Dick, Product Designer
 
 
-
+# Resources
+Our api project is located at https://github.com/jamespeacock/bridge_api
 

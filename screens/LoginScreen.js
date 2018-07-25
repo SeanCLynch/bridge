@@ -14,7 +14,7 @@ export default class LoginScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Login></Login>
+        <Login />
       </View>
     );
   }

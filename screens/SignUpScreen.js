@@ -14,7 +14,7 @@ export default class SignUpScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <SignUp></SignUp>
+        <SignUp />
       </View>
     );
   }

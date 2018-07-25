@@ -7,6 +7,7 @@ import LoginScreen from '../screens/LoginScreen';
 import HomeScreen from '../screens/HomeScreen';
 import ResultScreen from '../screens/ResultScreen';
 import ProfileScreen from '../screens/ProfileScreen';
+import SignUpScreen from '../screens/SignUpScreen';
 
 const LoginStack = createStackNavigator({
   Login: LoginScreen,
@@ -80,10 +81,29 @@ ProfileStack.navigationOptions = {
   ),
 };
 
+const SignUpStack = createStackNavigator({
+  SignUp: SignUpScreen,
+});
+
+SignUpStack.navigationOptions = {
+  tabBarLabel: 'SignUp',
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon
+      focused={focused}
+      name={
+        Platform.OS === 'ios'
+          ? `ios-information-circle${focused ? '' : '-outline'}`
+          : 'md-information-circle'
+      }
+    />
+  ),
+};
+
 
 export default createBottomTabNavigator({
   LoginStack,
   HomeStack,
   ResultStack,
-  ProfileStack
+  ProfileStack,
+  SignUpStack
 });

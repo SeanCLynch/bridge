@@ -4,9 +4,9 @@ import {
   StyleSheet
 } from 'react-native';
 
-import Login from '../components/Login';
+import SignUp from '../components/SignUp';
 
-export default class LoginScreen extends React.Component {
+export default class SignUpScreen extends React.Component {
   static navigationOptions = {
     header: null,
   };
@@ -14,13 +14,12 @@ export default class LoginScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Login></Login>
+        <SignUp></SignUp>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-  }
+
 });

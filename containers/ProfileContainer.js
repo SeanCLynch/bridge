@@ -28,8 +28,6 @@ const ProfileContainer = ({fellowName, fellowBio, imagePath, facebookHandle, lin
 const styles = StyleSheet.create({
   container: {
     width: '80%',
-    display: 'flex',
-    flexDirection:'column',
     alignItems:'center',
     justifyContent:'center',
     marginTop: '25%',
@@ -38,7 +36,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   image: {
-    borderRadius: 100,
   },
 });
 

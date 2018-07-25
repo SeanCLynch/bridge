@@ -23,8 +23,9 @@ export default class ProfileScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     width: '100%',
-    display: 'flex',
+    backgroundColor: 'white',
     alignItems: 'center',
   },
 });

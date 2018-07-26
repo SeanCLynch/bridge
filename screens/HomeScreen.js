@@ -3,6 +3,7 @@ import {
   View,
   Text,
   Image,
+  TouchableOpacity,
   StyleSheet
 } from 'react-native';
 import ImagePath from '../assets/images/profile.jpeg';
@@ -14,8 +15,8 @@ export default class ProfileScreen extends React.Component {
     header: null,
   };
 
-  randomPic(){
-
+  _handleClick = () => {
+    this.props.navigation.navigate('Profile');
   }
 
   render() {
@@ -23,10 +24,14 @@ export default class ProfileScreen extends React.Component {
       <View style={styles.container}>
         <SearchField />
         <Text style={styles.title}>Fellow of the Day</Text>
-        <Image
-          source={ImagePath}
-          style={styles.image}
-         />
+        <TouchableOpacity
+          onPress={this._handleClick}
+          >
+          <Image
+            source={ImagePath}
+            style={styles.image}
+           />
+         </TouchableOpacity>
       </View>
     );
   }

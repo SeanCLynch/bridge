@@ -26,6 +26,7 @@ export class Login extends React.Component {
       })
       .then(function (response) {
         console.log(response)
+
       })
       .catch(function (error) {
         console.log(error) //NOTE: Fails with error code 501 for incorrect password, fails with error code 502 for incorrect email
@@ -67,15 +68,14 @@ export class Login extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 200
   },
   input: {
-    fontSize: 15,
+    width: 325,
     padding: 10,
+    marginTop: '5%',
+    fontSize: 15,
     borderWidth: 1,
     borderRadius: 5,
-    width: 325,
-    margin: 25,
   }
 });
 

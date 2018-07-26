@@ -11,10 +11,11 @@ import facebookIcon from '../assets/images/facebook.png';
 import instagramIcon from '../assets/images/instagram.png';
 import linkedinIcon from '../assets/images/linkedin.png';
 
-const SocialMedia = ({ linkedin, facebook, instagram }) =>
+const SocialMedia = ({ linkedin, facebook, instagram, email }) =>
 <View style={styles.container}>
   <Image style={styles.icon} source={facebookIcon} />
   <Image style={styles.icon} source={instagramIcon} />
+  <Image style={styles.icon} source={linkedinIcon} />
   <Image style={styles.icon} source={linkedinIcon} />
 </View>
 
@@ -23,9 +24,9 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   icon: {
-    margin: 20,
     width: 30,
     height: 30,
   },

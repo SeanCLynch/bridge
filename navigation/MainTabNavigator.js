@@ -81,23 +81,23 @@ ProfileStack.navigationOptions = {
   ),
 };
 
-const SignUpStack = createStackNavigator({
-  SignUp: SignUpScreen,
-});
-
-SignUpStack.navigationOptions = {
-  tabBarLabel: 'SignUp',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={
-        Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
-      }
-    />
-  ),
-};
+// const SignUpStack = createStackNavigator({
+//   SignUp: SignUpScreen,
+// });
+//
+// SignUpStack.navigationOptions = {
+//   tabBarLabel: 'SignUp',
+//   tabBarIcon: ({ focused }) => (
+//     <TabBarIcon
+//       focused={focused}
+//       name={
+//         Platform.OS === 'ios'
+//           ? `ios-information-circle${focused ? '' : '-outline'}`
+//           : 'md-information-circle'
+//       }
+//     />
+//   ),
+// };
 
 
 export default createBottomTabNavigator({
@@ -105,5 +105,4 @@ export default createBottomTabNavigator({
   HomeStack,
   ResultStack,
   ProfileStack,
-  SignUpStack
 });

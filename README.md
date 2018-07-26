@@ -34,12 +34,17 @@ It's tough to meet, know, and get stories of everyone at TC.
 ### Frontend Team
 #### Andre Gomes, Lead Frontend Engineer
 #### Robert Hwang, Frontend Engineer
+#### Halley Cummings, NASA
 
 ## Product 
 
 ### Design Team
 #### Lydia Dick, Graphic Designer
+#### Taysa Mohler, Graphic Designer
+#### Rosalie Reuss, Graphic Designer
 
+### Brand Management
+#### Amy Jo Weaver, Videographer
 
 
 

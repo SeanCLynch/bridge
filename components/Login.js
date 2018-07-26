@@ -71,14 +71,9 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 15,
-    borderLeftWidth: 2,
-    borderTopWidth: 2,
-    borderRightWidth: 2,
-    borderBottomWidth: 2,
-    borderTopLeftRadius: 25,
-    borderTopRightRadius: 25,
-    borderBottomRightRadius: 25,
-    borderBottomLeftRadius: 25,
+    padding: 10,
+    borderWidth: 1,
+    borderRadius: 5,
     width: 325,
     margin: 25,
   }

@@ -7,6 +7,8 @@ import {
 } from 'react-native';
 import ImagePath from '../assets/images/profile.jpeg';
 
+import SearchField from '../components/SearchField';
+
 export default class ProfileScreen extends React.Component {
   static navigationOptions = {
     header: null,
@@ -19,6 +21,7 @@ export default class ProfileScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <SearchField />
         <Text style={styles.title}>Fellow of the Day</Text>
         <Image
           source={ImagePath}

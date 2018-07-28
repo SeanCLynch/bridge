@@ -6,9 +6,9 @@ See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)
 
 # Mission
 
-The goal of Bridge is to break silos and reduce fragmentation between VFA Fellows. We want to create a minimalistic, simple database of people, with some additional useful features. 
+The goal of Bridge is to break silos and reduce fragmentation between VFA's fellows, who are seperated by city, class, and social group. We want to create a minimalistic, simple database of fellows, with some additional awesome features. 
 
-This application is not associated with VFA.
+This application is not oficially associated with VFA. It's made by and for fellows! 
 
 # Problem Statement
 

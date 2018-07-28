@@ -46,5 +46,10 @@ It's tough to meet, know, and get stories of everyone at TC.
 ### Brand Management
 #### Amy Jo Weaver, Videographer
 
+### Outreach
+#### Julia Kelley, Outreacher
+#### Amy Young, Outreacher 
+#### Hannah Hund, Outreacher
+#### Ying Yu, Outreacher
 
 

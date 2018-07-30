@@ -20,7 +20,6 @@ What kind of fellow community should we design to achieve our full potential as 
 2. Beta Launched By Tue July, 30th
 
 ## Team Directors
- 
 ##### Michael Wedd, Co-founder, Bridge Director
 ##### Eric Zhang, Co-founder, Director of Systems
 ##### Jake Peacock, Director of Research & Development 
@@ -42,9 +41,7 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### Halley Cummings, Front-end Engineer
 
 ## Research & Development Team
-### Jake Peacock, Director of R&D
-##### TBD
-
+##### Jake Peacock, Director
 
 ## Art Team 
 ##### Lydia Dick, Graphic Designer

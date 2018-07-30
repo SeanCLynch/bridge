@@ -19,34 +19,38 @@ What kind of fellow community should we design to achieve our full potential as 
 1. MVP Completed By Sun July, 22nd
 2. Beta Launched By Tue July, 30th
 
-## Team Leaders
+## Bridge Directors
  
-#### Michael Wedd, Co-founder, Director
-#### Eric Zhang, Co-founder, Director of Systems
-#### Hannah Hund, Director of Culture Design
-#### Jake Peacock, Director of Research & Development 
-#### Sean Lynch, Director of Engineering
-#### TBA, Art Director
+##### Michael Wedd, Co-founder, Bridge Director
+##### Eric Zhang, Co-founder, Director of Systems
+##### Jake Peacock, Director of Research & Development 
+##### Hannah Hund, Director of Culture Design
+##### Sean Lynch, Director of Engineering
+##### TBD, Art Director
 
 ## Engineering Team
-### Back-End Specialization 
-#### Sean Lynch, Lead Backend Engineer                 
-#### Jake Peacock, Backend Engineer
-#### Adam Stern, Backend Engineer
+### Sean Lynch, Director of Engineering
 
-### Front-End Specialization
-#### Andre Gomes, Lead Frontend Engineer
-#### Robert Hwang, Frontend Engineer
-#### Halley Cummings, NASA
+#### Back-End Spec. 
+##### Sean Lynch, Lead Back-end Engineer                 
+##### Jake Peacock, Back-end Engineer
+##### Adam Stern, Backe-nd Engineer
+
+#### Front-End Spec.
+##### Andre Gomes, Lead Frontend Engineer
+##### Robert Hwang, Front-end Engineer
+##### Halley Cummings, NASA
 
 ## Art Team 
-#### Lydia Dick, Graphic Designer
-#### Taysa Mohler, Graphic Designer
-#### Rosalie Reuss, Graphic Designer
-#### Amy Jo Weaver, Videographer
+##### Lydia Dick, Graphic Designer
+##### Taysa Mohler, Graphic Designer
+##### Rosalie Reuss, Graphic Designer
+##### Amy Jo Weaver, Videographer
 
 ## Culture Design Team
-#### Julia Kelley, designer
-#### Amy Young, designer 
-#### Hannah Hund, designer
-#### Ying Yu, designer
+### Hannah Hund, Director
+
+##### Julia Kelley, designer
+##### Amy Young, designer 
+##### Hannah Hund, designer
+##### Ying Yu, designer

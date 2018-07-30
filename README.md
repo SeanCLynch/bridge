@@ -1,6 +1,6 @@
 # Bridge
 
-> The Unoffical Venture For America (VFA) Social App
+> An experiment in entreprenurial social networking and culture design
 
 See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)
 

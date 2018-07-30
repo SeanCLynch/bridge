@@ -1,6 +1,6 @@
 # Bridge
 
-> An experiment in entreprenurial social networking and bottom-up culture design for entrepreneurs. 
+> A platform-based project exploring entreprenurial social networking and culture design for entrepreneurs through bottom-up, agile design. 
 
 See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)
 

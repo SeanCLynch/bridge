@@ -62,5 +62,5 @@ What kind of fellow community should we design to achieve our full potential as 
 ### Culture Design Team
 ##### Julia Kelley, designer
 ##### Amy Young, designer 
-##### Hannah Hund, designer
+##### Dylan Yuksa, designer
 ##### Ying Yu, designer

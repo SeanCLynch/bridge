@@ -19,10 +19,13 @@ It's tough to meet, know, and get stories of everyone at TC.
 1. MVP Completed By Sun July, 22nd
 2. Beta Launched By Tue July, 30th
 
-# The Team
+### Team Leaders
  
-#### Michael Wedd, Co-founder, Product Manager
+#### Michael Wedd, Co-founder
 #### Eric Zhang, Co-founder, Systems Engineer
+#### Hannah Hund, Director of Culture Design
+#### Jake Peacock, Director of Research & Development 
+
 
 ## Engineering
 

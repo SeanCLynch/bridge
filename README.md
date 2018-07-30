@@ -20,7 +20,7 @@ What kind of fellow community should we design to achieve our full potential as 
 2. Beta Launched By September 30th
 
 ## Team Directors
-##### Michael Wedd, Co-founder, Bridge Director
+##### Michael Wedd, Co-founder, Bridge Project Director
 ##### Eric Zhang, Co-founder, Director of Systems
 ##### Jake Peacock, Director of Research & Development 
 ##### Hannah Hund, Director of Culture Design

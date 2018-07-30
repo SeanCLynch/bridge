@@ -19,6 +19,12 @@ What kind of fellow community should we design to achieve our full potential as 
 1. MVP Completed By August, 31st
 2. Beta Launched By September 30th
 
+# Communications (under revision)
+
+1. "Bridgecomms.slack.com" is our workspace. We have one channel, bridge, for all to collaborate. 
+2. Other conversations happen in DMs, texts, and phone calls. Please don't create new Slack channels. 
+3. Meetings will happen over Zoom, which is integrated into our Slack workspace. 
+
 ## Team Directors
 ##### Michael Wedd, Co-founder, Bridge Project Director
 ##### Eric Zhang, Co-founder, Director of Systems

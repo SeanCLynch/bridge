@@ -8,7 +8,7 @@ See also: Bridge API [here](https://github.com/jamespeacock/bridge_api)
 
 The goal of Bridge is two-fold: to break collapse fragmentations between VFA's fellows, who are seperated by city, class, and social group, fostering an open, electric community of entrepreneurship across space and time. We want to create a minimalistic, simple database of fellows, with some additional awesome features. The second, broader goal of "The Bridge Project," of which the Bridge app is a core product, is to experiment with different forms of culture design and network formation in entrepreneurial environments beginning with VFA and expanding outward, initiating entrepreneurship across the world in small and large communities, rural and urban, at scale. 
 
-This application is not oficially associated with VFA. It's made by and for fellows! 
+We aren't oficially associated with VFA. It's made by and for fellows! 
 
 # Driving Question
 

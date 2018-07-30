@@ -34,12 +34,13 @@ What kind of fellow community should we design to achieve our full potential as 
 #### Back-End Spec. 
 ##### Sean Lynch, Lead Back-end Engineer                 
 ##### Jake Peacock, Back-end Engineer
-##### Adam Stern, Backe-nd Engineer
+##### Adam Stern, Backe-end Engineer
+##### Samreeen Islam, Back-end Engineer
 
 #### Front-End Spec.
 ##### Andre Gomes, Lead Frontend Engineer
 ##### Robert Hwang, Front-end Engineer
-##### Halley Cummings, NASA
+##### Halley Cummings, Front-end Engineer
 
 ## Art Team 
 ##### Lydia Dick, Graphic Designer
@@ -48,7 +49,7 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### Amy Jo Weaver, Videographer
 
 ## Culture Design Team
-### Hannah Hund, Director
+#### Hannah Hund, Director
 
 ##### Julia Kelley, designer
 ##### Amy Young, designer 

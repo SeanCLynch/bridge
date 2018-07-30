@@ -19,7 +19,7 @@ What kind of fellow community should we design to achieve our full potential as 
 1. MVP Completed By Sun July, 22nd
 2. Beta Launched By Tue July, 30th
 
-## Bridge Directors
+## Team Directors
  
 ##### Michael Wedd, Co-founder, Bridge Director
 ##### Eric Zhang, Co-founder, Director of Systems
@@ -29,7 +29,6 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### TBD, Art Director
 
 ## Engineering Team
-### Sean Lynch, Director of Engineering
 
 #### Back-End Spec. 
 ##### Sean Lynch, Lead Back-end Engineer                 
@@ -42,6 +41,11 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### Robert Hwang, Front-end Engineer
 ##### Halley Cummings, Front-end Engineer
 
+## Research & Development Team
+### Jake Peacock, Director of R&D
+##### TBD
+
+
 ## Art Team 
 ##### Lydia Dick, Graphic Designer
 ##### Taysa Mohler, Graphic Designer
@@ -49,8 +53,6 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### Amy Jo Weaver, Videographer
 
 ## Culture Design Team
-#### Hannah Hund, Director
-
 ##### Julia Kelley, designer
 ##### Amy Young, designer 
 ##### Hannah Hund, designer

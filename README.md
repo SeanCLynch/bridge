@@ -63,4 +63,5 @@ What kind of fellow community should we design to achieve our full potential as 
 ##### Julia Kelley, designer
 ##### Amy Young, designer 
 ##### Dylan Yuksa, designer
+##### Destinee Mentor, designer 
 ##### Ying Yu, designer

@@ -5,7 +5,9 @@ import {
   Image,
   StyleSheet
 } from 'react-native';
-import ImagePath from '../assets/images/profile.jpeg';
+import ImagePath from '../assets/images/profile.jpeg'
+
+import Hand from '../components/Hand'
 
 import Tag from '../components/Tag'
 import SocialMedia from '../components/SocialMedia'
@@ -42,14 +44,16 @@ const ProfileContainer = ({fellowName, fellowBio, imagePath, facebookHandle, lin
     <Text style={styles.title}>NUGGET</Text>
     <Text  style={styles.content}>"Kings, presidents, voting" - David Clark</Text>
   </View>
+  <Hand />
 </View>
 
 
 const styles = StyleSheet.create({
   container: {
-    width: '90%',
+    width: '100%',
   },
   TopContainer: {
+    width: '90%',
     marginTop: '25%',
     marginBottom: '5%',
     flexDirection: 'row',
@@ -58,9 +62,6 @@ const styles = StyleSheet.create({
   BioContainer: {
     flexDirection: 'column',
     justifyContent: 'space-between',
-  },
-  ImageContainer: {
-
   },
   TagContainer: {
     flexDirection: 'row',

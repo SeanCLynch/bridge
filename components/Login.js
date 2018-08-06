@@ -56,9 +56,9 @@ export class Login extends React.Component {
           secureTextEntry={true}
         />
         <Button
+          style={styles.button}
           onPress={this.submit}
           title="Login"
-          color="#8B008B"
         />
       </View>
     )
@@ -76,6 +76,9 @@ const styles = StyleSheet.create({
     fontSize: 15,
     borderWidth: 1,
     borderRadius: 5,
+  },
+  button: {
+    color: 'blue',
   }
 });
 

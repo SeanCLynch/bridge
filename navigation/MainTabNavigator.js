@@ -11,6 +11,7 @@ import SignUpScreen from '../screens/SignUpScreen';
 
 const LoginStack = createStackNavigator({
   Login: LoginScreen,
+  SignUp: SignUpScreen,
 });
 
 LoginStack.navigationOptions = {
@@ -80,24 +81,6 @@ ProfileStack.navigationOptions = {
     />
   ),
 };
-
-// const SignUpStack = createStackNavigator({
-//   SignUp: SignUpScreen,
-// });
-//
-// SignUpStack.navigationOptions = {
-//   tabBarLabel: 'SignUp',
-//   tabBarIcon: ({ focused }) => (
-//     <TabBarIcon
-//       focused={focused}
-//       name={
-//         Platform.OS === 'ios'
-//           ? `ios-information-circle${focused ? '' : '-outline'}`
-//           : 'md-information-circle'
-//       }
-//     />
-//   ),
-// };
 
 
 export default createBottomTabNavigator({
